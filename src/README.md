@@ -8,7 +8,7 @@ Updated: November, 2023
 **GChartsDataTableBlazorfied** provides a Google Charts datatable builder for the GChartsBlazorfied library.
 
 ### Targets:
-- .NET 7, .NET 8
+- .NET 7
 
 ## Introduction
 
