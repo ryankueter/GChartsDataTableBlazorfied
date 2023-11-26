@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net7.0;net8.0</TargetFrameworks>
+    <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
@@ -13,31 +13,20 @@
 	<PackageProjectUrl>https://github.com/ryankueter/GChartsDataTableBlazorfied</PackageProjectUrl>
 	<PackageReleaseNotes>Added a .NET 8 target.</PackageReleaseNotes>
 	<PackageTags>C#;Google Charts;Charts</PackageTags>
-	<Version>1.0.2</Version>
-	<AssemblyVersion>1.0.2</AssemblyVersion>
-	<FileVersion>1.0.2</FileVersion>
+	<Version>1.0.3</Version>
+	<AssemblyVersion>1.0.3</AssemblyVersion>
+	<FileVersion>1.0.3</FileVersion>
 	<RepositoryType>Git</RepositoryType>
 	<Product>$(AssemblyName)</Product>
 	<NeutralLanguage>en</NeutralLanguage>
 	<Title>GChartsDataTableBlazorfied</Title>
+	<PackageReadmeFile>README.md</PackageReadmeFile>
+	<PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\GChartsBlazorfied\README.md">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Update="LICENSE">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
-    <None Update="README.md">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
+    <None Include="src\LICENSE" Pack="true" PackagePath="" />
+    <None Include="src\README.md" Pack="true" PackagePath="" />
   </ItemGroup>
 
 </Project>
