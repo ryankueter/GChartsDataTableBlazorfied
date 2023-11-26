@@ -1,14 +1,14 @@
 # GChartsDataTableBlazorfied
 
 Author: Ryan Kueter  
-Updated: September, 2023
+Updated: November, 2023
 
 ## About
 
 **GChartsDataTableBlazorfied** provides a Google Charts datatable builder for the GChartsBlazorfied library.
 
 ### Targets:
-- .NET 7
+- .NET 7, .NET 8
 
 ## Introduction
 
@@ -70,6 +70,9 @@ private gcDataTableBuilder GetDataTable()
         .AddCell(""""<div style="padding: 10px"><h1>Html Tooltip 2016</h1> <a href="https://developers.google.com/chart">Google Charts</a></div>"""");
     return DataTableBuilder;
 }
+
+// To build the table, you call the build method:
+DataTableBuilder.Build();
 ```
 
 ###
